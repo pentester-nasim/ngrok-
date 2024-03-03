@@ -1,0 +1,8 @@
+ngrok download for linux 
+cd Downloads
+chmod +777 ngrok
+sudo mv ngrok /bin ( so that you can run from any directory )
+ngrok config add-authtoken 2dAmqK9H87Kk9q8jVJPWerBp8lJ_7shPJX4Vx2nHgfFxm7mWX ( paste from ngrok site )
+ngrok http 80 
+copy the url : http://....
+go to another terminal : sudo python3 -m http.server 80 
